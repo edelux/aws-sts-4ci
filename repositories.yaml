@@ -1,0 +1,6 @@
+---
+allow:
+  - edelux/aws-sts-4ci
+  - edelux/iasc-infra
+  - edelux/iasc-ecs
+...
