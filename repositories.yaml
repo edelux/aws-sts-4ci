@@ -2,5 +2,4 @@
 allow:
   - edelux/iasc-infra
   - edelux/iasc-ecs
-  - edelux/iasc
 ...
