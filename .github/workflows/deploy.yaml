@@ -1,0 +1,29 @@
+---
+name: Deploy Infrastructure
+run-name: Deploy Workflow
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - 'main'
+      - 'master'
+    paths:
+      - '*.tf'
+      - 'templates/*.*'
+      - 'modules/*/*.tf'
+      - '**.ini'
+      - '**.xml'
+      - '**.yml'
+      - '**.yaml'
+      - '**.toml'
+      - '**.json'
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  Deploy:
+    uses: edelux/terraform/.github/workflows/tf-deploy.yaml@main
+...
