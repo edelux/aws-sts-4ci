@@ -19,12 +19,11 @@ on:
       - '**.toml'
       - '**.json'
 
+permissions:
+  id-token: write
+  contents: read
+
 jobs:
   Deploy:
-    runs-on: ubuntu-latest
     uses: edelux/terraform/.github/workflows/deploy.yaml@main
-
-  permissions:
-    id-token: write
-    contents: read
 ...
