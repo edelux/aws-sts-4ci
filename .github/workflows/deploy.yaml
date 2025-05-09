@@ -25,5 +25,5 @@ permissions:
 
 jobs:
   Deploy:
-    uses: edelux/terraform/.github/workflows/deploy.yaml@main
+    uses: edelux/terraform/.github/workflows/tf-deploy.yaml@main
 ...
