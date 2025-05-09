@@ -6,6 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches:
+      - 'main'
       - 'master'
     paths:
       - '*.tf'
@@ -24,5 +25,5 @@ permissions:
 
 jobs:
   Deploy:
-    uses: edelux/terraform/.github/workflows/tf-deploy.yaml@main
+    uses: edelux/terraform/.github/workflows/oidc-deploy.yaml@main
 ...
