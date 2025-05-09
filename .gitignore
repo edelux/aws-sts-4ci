@@ -36,12 +36,13 @@ terraform.rc
 
 ## .env files
 **.env
+.env*
 
 ## AWS Congigs
 .aws/**
 
 ## Exclude .conf files
-**.conf
+*.conf
 
 ## Exclude backup file ~
 **~
