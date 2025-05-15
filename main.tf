@@ -5,6 +5,6 @@ locals {
 
 locals {
   conditions = [
-    for repo in local.repositories : "repo:${repo}:ref:refs/heads/*"
+    for repo in local.repositories : "repo:${repo}:*"
   ]
 }
