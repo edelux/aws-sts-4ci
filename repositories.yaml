@@ -3,4 +3,5 @@ allow:
   - edelux/iasc-infra
   - edelux/iasc-ecs
   - edelux/fastapi
+  - edelux/django
 ...
