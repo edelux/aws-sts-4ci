@@ -4,4 +4,6 @@ allow:
   - edelux/iasc-ecs
   - edelux/fastapi
   - edelux/django
+  - edelux/backendtest
+  - edelux/frontendtest
 ...
